@@ -1,0 +1,32 @@
+.h-line {
+    height: 1px;
+}
+
+.text-title {
+    font-size: 5rem;
+}
+
+.text-type-title {
+    font-size: 3.5rem;
+}
+
+.table{
+    table-layout:fixed;
+}
+
+@media (max-width: 992px) {
+    .border-end {
+        border-right: 0px !important;
+    }
+
+    .text-title, .text-type-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-col {
+        border-bottom: 0 !important;
+    }
+}
+
